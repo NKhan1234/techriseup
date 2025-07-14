@@ -319,7 +319,7 @@ export default function NotesPage() {
             {notes.length === 0 && (
               <button
                 onClick={() => setShowForm(true)}
-                className="inline-flex items-center px-4 py-2 bg-primary text-white rounded-lg hover:bg-blue-700 transition-colors"
+                className="inline-flex items-center px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors"
               >
                 <Plus className="h-4 w-4 mr-2" />
                 Create Your First Note
